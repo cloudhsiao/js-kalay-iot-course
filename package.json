@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "beaglebone-dht": "0.0.3",
+    "mqtt": "^1.10.0",
     "node-gyp": "^3.3.1",
     "onoff": "^1.0.4",
     "request": "^2.69.0",
