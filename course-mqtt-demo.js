@@ -1,7 +1,7 @@
 var mqtt = require('mqtt');
 var client = mqtt.connect('mqtt://iot.eclipse.org');
 
-var topic = 'itri/member/cloudhs/demo';
+var topic = 'course/student/cloudhs/demo';
 
 client.on('connect', function() {
     console.log('mqtt connected');
