@@ -1,7 +1,7 @@
 var Gpio = require('onoff').Gpio,
     request = require('request'),
     format = require('string-format'),
-    button = new Gpio(69, 'in', 'rising'),
+    button = new Gpio(68, 'in', 'rising'),
     uid = '',
     msg = '';
 
