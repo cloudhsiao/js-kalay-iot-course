@@ -4,7 +4,7 @@ var Gpio = require('onoff').Gpio,
 var mqtt = require('mqtt');
 var client = mqtt.connect('mqtt://iot.eclipse.org');
 
-var topic = 'course/member/cloudhs/led';
+var topic = 'course/student/cloudhs/led';
 
 client.on('connect', function() {
     console.log('mqtt connected');
