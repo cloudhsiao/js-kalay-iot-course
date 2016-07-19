@@ -1,5 +1,5 @@
 var Gpio = require('onoff').Gpio,
-    button = new Gpio(69, 'in', 'rising');
+    button = new Gpio(68, 'in', 'rising');
 
 button.watch(function(err, value) {
     if (err) {
