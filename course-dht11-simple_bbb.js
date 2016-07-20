@@ -1,6 +1,6 @@
 var dht = require('beaglebone-dht'),
     sensor = dht.sensor('DHT11'),
-    pin = 'P9_11',
+    pin = 'P8_11',
     iv;
 
 iv = setInterval(function () {
