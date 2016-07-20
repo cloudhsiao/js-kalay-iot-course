@@ -2,7 +2,7 @@ var restify = require('restify'),
     dht = require('beaglebone-dht'),
     sensor = dht.sensor('DHT11'),
     server = restify.createServer(),
-    pin = 'P9_11',
+    pin = 'P8_11',
     iv,
     data;
 
