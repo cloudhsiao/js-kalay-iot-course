@@ -2,7 +2,7 @@ var dht = require('beaglebone-dht'),
     request = require('request'),
     format = require('string-format'),
     sensor = dht.sensor('DHT11'),
-    pin = 'P9_11',
+    pin = 'P8_11',
     iv,
     data;
 
